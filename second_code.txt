@@ -1,0 +1,23 @@
+<div>
+  <span class="add-to-cart add_to_cart">
+    <form action="/my_save_list/add_to_shopping_cart" accept-charset="UTF-8" method="post">
+      <input type="hidden" name="authenticity_token" value="tIXFyzd4pQnrUoD8RidCPnWeWc4vjEymkkUEC5Jzo5Q=">
+      <input id="variant_id" name="variant_id" type="hidden" value="5116877-77567023696">
+      <input id="variant_quantity" type="hidden" name="variant[quantity]" value="1">
+      <input id="stock_source" type="hidden" name="stock_source" value="3582110">
+      <input id="compare_var_ids" type="hidden" name="compare_data[var_ids]" value="">
+      <input id="compare_browse_node_id" type="hidden" name="compare_data[browse_node_id]" value="home_powe_elec_elec_pv00885573">
+      <input id="compare_source_ids" type="hidden" name="compare_data[source_ids]" value="">
+      <input id="compare_prices" type="hidden" name="compare_data[prices]" value="">
+      <input id="force_cart" type="hidden" name="force_cart" value="true">
+
+      <input class="button hide" name="commit" type="submit" value="Add to cart">
+      <input class="button add-to-cart-fake-action-button" value="Add to cart" data-bnid="home_powe_elec_elec_pv00885573" data-product_id="5116877-72213410395" data-source_id="234380" data-iscompare="true" data-checksum="b2dc6deb550f2860ec981270d6dd241f">
+      <span class="button-hint">
+        Products costing more than <span class="m-w"><span class="m-c c-inr">₹</span>50,000.00</span> must be compared. Please Compare Product before adding to cart
+      </span>
+
+      <input id="origin_country_advisory" type="hidden" name="origin_country_advisory" value="false">
+    </form>
+  </span>
+</div>
