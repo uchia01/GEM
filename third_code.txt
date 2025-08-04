@@ -1,0 +1,17 @@
+<div>
+  <form action="/direct_purchase" method="post" accept-charset="UTF-8">
+    <input type="hidden" name="authenticity_token" value="YEYg9w1AQz35Capj7LWXt21HS1ASQq00cR/4zcHLV7M=">
+    <input type="hidden" name="variant_id" value="5116877-30634413382">
+    <input type="hidden" name="variant[quantity]" value="1">
+    <input type="hidden" name="stock_source" value="15155">
+    <input type="hidden" name="compare_data[var_ids]" value="">
+    <input type="hidden" name="compare_data[browse_node_id]" value="home_labo_meas_pati_hbsa">
+    <input type="hidden" name="compare_data[source_ids]" value="">
+    <input type="hidden" name="compare_data[prices]" value="">
+    <input type="hidden" name="force_cart" value="true">
+    <input type="hidden" name="origin_country_advisory" value="false">
+
+    <!-- Replace fake button with real submit -->
+    <input class="button" type="submit" value="Buy Now">
+  </form>
+</div>
